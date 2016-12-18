@@ -1,0 +1,490 @@
+.bodyline {
+    border-left: 7px solid #EDEDED;
+    border-right: 7px solid #EDEDED;
+    border-top: 15px solid #EDEDED;
+    border-bottom: 15px solid #EDEDED;
+}
+.sorcha	{
+  	text-align:center;
+  	font-family:times new roman;
+  	background-color:#EDEDED;
+  	font-size:14px;
+  	border-radius:0px;
+  	text-transform:lowercase;
+  	font-style:italic;
+  	font-weight:bold;
+  	letter-spacing:-1px;
+	}
+
+.nav a.nav img{
+max-width: 100px;
+}
+
+a.forumlink:link, a.forumlink:visited {
+font-size: 20px;
+font-family: 'times new roman', serif;
+text-align : justify ;
+text-transform:lowercase;
+font-weight:lighter;
+letter-spacing:-2px;
+padding-left: 3px;
+padding-right: 3px;
+padding-bottom: 0px;
+padding-top: 3px;
+margin-left:12px;
+margin-right:12px;
+border-left: 5px solid #7D6766;
+text-shadow: 1px 1px 1px #101010;
+}
+
+a.forumlink:hover {
+color: #939C9B;
+  background-color:#3F4C4A;}
+  
+a {
+	font-family:"times new roman", times new roman;
+	font-size:15px;
+  	text-decoration:none;
+	font-style:italic;
+	color:#7D6766;
+	font-weight:bold;
+	text-transform:lowercase;
+  	letter-spacing:-1px;
+  	text-shadow: 1px 1px 1px #101010;
+	}
+
+a:hover {
+	color:#939C9B;
+  	text-transform:lowercase;
+  	letter-spacing:-1px;
+  	background-color:#3F4C4A;
+	}
+
+    #i_logo {
+        width: 100%;
+    }
+    .bodyline { 
+      padding: 0;
+    }
+
+.tabberlive .tabbertabhide { display:none;}
+
+
+/*--------------------------------------------------
+  ul.tabbernav = Die Tab Naviliste
+  li.tabberactive = Der aktive Tab
+  --------------------------------------------------*/
+ul.tabbernav{
+ margin:0;
+ padding: 3px 0;
+ font: bold 11px Georgia;}
+
+ul.tabbernav li{
+ list-style: none;
+ margin: 0;
+ display: inline;}
+
+ul.tabbernav li a{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border-bottom: none;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ background: #333835;
+ text-decoration: none;}
+
+ul.tabbernav li a:link { color: #7D6766; }
+ul.tabbernav li a:visited { color: #7D6766; }
+ul.tabbernav li a:hover{
+ color: #3d5150;
+ background: #333835;}
+ul.tabbernav li.tabberactive a{
+ background-color: #333835;}
+ul.tabbernav li.tabberactive a:hover{
+ color: #3d5150;
+ background: #333835;}
+/*--------------------------------------------------
+  .tabbertab = Die einzelnen Tabseiten (Box mit Ibhalt)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border-top:0;}
+
+.tabberlive .tabbertab h2 {
+ display:none;}
+
+.tabberlive .tabbertab h3 {
+ display:none;}
+
+
+.tabberlive#tab1 {}
+.tabberlive#tab2 {}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;}
+
+/*CODE (c) BY 2006 Patrick Fitzgerald */
+
+bold, b { 
+	color:#3F4C4A;
+    	letter-spacing:-1px;
+	}
+		
+i, em { 
+	color: #3F4C4A;
+  	font-size:10px;
+  	letter-spacing:-1px;
+  	font-family:arial;
+  	text-transform:uppercase;
+	}
+		
+u {	
+	color:#3F4C4A;
+	}
+
+.selectCode {
+    color: #496d6b;
+    cursor: pointer;
+    float: right;
+    font-weight: normal;   
+}
+blockquote {
+  background-color:#333835;
+  border-left:5px solid #3d5150;
+  border-right:5px solid #3d5150;
+   border-radius:5px;
+  padding-left:15px;
+  padding-top:0px;
+}
+
+/* Header definieren */
+#i_logo {
+  background-image: url("http://i37.servimg.com/u/f37/19/52/62/77/header16.jpg");
+  height: 350px;
+  width: 800px;
+  background-size: 800px 410px;
+}
+/* Header definieren ENDE */
+
+/* Navigationsleisten Links aus und einblenden */
+.bodyline a[href="/faq"] {
+display:none !important;
+}
+
+.bodyline a[href="/groups"] {
+display:none !important;
+}
+
+.bodyline a[href="/calendar"] {
+display:none !important;
+}
+
+.bodyline a[href="/search"] {
+display:none !important;
+}
+
+/* GrÃ¶ÃŸe der Navigationslinks */
+a.mainmenu {
+    font-size: 18px;
+}
+/* GrÃ¶ÃŸe der Navigationslinks ENDE */
+
+/* Steckbrief Anfang */
+
+.header { width: 450px; height: 230px; background-image: url('HEADER URL'); } 
+
+.bewerbung { 
+  width: 450px; 
+  background: #939C9B; 
+  border: 5px solid #222E2C; 
+  align: center; 
+} 
+
+.titel { width: 430px; 
+  font-size: 30px; 
+  text-align: center; 
+  color: #222E2C; 
+  font-family: 'times new roman', serif;
+  font-style: italic;
+  text-transform:lowercase;
+  text-align : center ;
+  font-weight:lighter;
+  letter-spacing:-2px;
+  text-shadow: 1px 1px 1px #101010;
+}
+
+.untertitel { 
+  width: 400px; 
+  text-align: center; 
+  color: #dedede; 
+  font-family: 'Serif'; 
+  font-size: 8px; 
+  letter-spacing: 3px; 
+  text-transform: lowercase; 
+  margin-top: 1px; 
+  line-height: 8px; 
+}
+
+.inhalt { 
+  width: 400px; 
+  height: 250px; 
+  text-align: justify; 
+  font-family: 'Arial'; 
+  font-size: 12px; 
+  line-height: 100%; 
+  color: #222E2C; 
+  text-transform: none; 
+  padding: 10px; 
+  overflow: auto; 
+  border: 5px solid #3F4C4A; 
+}
+
+.relationsinhalt {  
+  width: 400px; 
+  text-align: justify; 
+  font-family: 'Arial'; 
+  font-size: 12px; 
+  line-height: 100%; 
+  color: #222E2C;  
+}
+
+.spieler { 
+  width: 444px; 
+  text-align: justify; 
+  background: #3F4C4A; 
+  color: #EDEDED; 
+  font-family:'Arial'; 
+  font-size: 8px; 
+  letter-spacing: Â 1px; 
+  text-transform: uppercase; 
+  line-height: 5px; 
+  text-align: center; 
+  padding: 3px;
+}
+/* Steckbrief Ende */
+
+/* Chatbox mit Avatar ANFANG */
+#chatbox .cb-avatar, #chatbox .cb-avatar > img {
+  width: 150px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+        overflow:hidden;
+}
+/* Chatbox mit Avatar ENDE */
+
+/* Chatbox mit Avatar Trennlinien entfernen */
+#chatbox > p {
+  border-bottom-color: #EDEDED !important;
+}
+
+#chatbox_members {
+  border-right-color: #939C9B !important;
+}
+/* Chatbox mit Avatar Trennlinien entfernen ENDE */
+
+/*Hintergrundfarbe der Chatbox*/
+body.chatbox {
+background-color: #EDEDED;
+}
+/* Hintergrundfarbe der Chatbox ENDE*/
+
+/*Textfarbe in der Onlineliste (Userliste auf der linken Seite)*/
+
+#chatbox_members ul li,
+#chatbox_members ul li a {
+    color: #EDEDED;
+ }
+/*Textfarbe in der Onlineliste (Userliste auf der linken Seite)ENDE*/
+
+/*Hintergrundfarbe im Chat-Stream (Hauptfeld, in dem die Nachrichten angezeigt werden)*/
+
+.chatbox_row_1,
+.chatbox_row_2,
+.chatbox_row_3,
+.chatbox_row_1 a,
+.chatbox_row_2 a,
+.chatbox_row_3 a  {
+    background-color: #EDEDED
+}
+/*/*Hintergrundfarbe im Chat-Stream (Hauptfeld, in dem die Nachrichten angezeigt werden) ENDE*/
+
+/*Hintergrundfarbe des Titels der Chatbox*/
+#chatbox_header .catBottom {
+  background-color: #939C9B;
+  
+}
+/* Hintergrundfarbe Chatbox ENDE */
+
+/* Anzeige der Kategoriebilder ENDE */
+
+/* Verkleinerung Kategoriebilder */
+.nav a.nav img{
+  background-size= 100%;
+max-height: 25px;
+max-width: 200px;
+}
+/* Verkleinerung Kategoriebilder ENDE */
+
+/* Tint fÃ¼r Teambilder */
+.tint {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(125, 103, 102, 0.5);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+/* Tint ENDE */
+
+/* Anzeige der Kategoriebilder */
+#kat1 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego15.jpg");
+    height: 100px;
+    width: 800px;
+}
+
+#kat2 {
+   background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego14.jpg");
+   height: 100px;
+   width: 800px;
+  
+}
+
+#kat3 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego11.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat4 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego13.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat5 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego16.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat6 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego17.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat7 {
+    background-image: url("Link7");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat8 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego18.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat9 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego12.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+
+#kat10 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego20.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+
+#kat11 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego19.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+
+#kat12 {
+    background-image: url("Lihttps://i37.servimg.com/u/f37/18/14/61/98/katego10.jpgnk12");
+    height: 100px;
+    width: 800px;
+  
+}
+
+
+#kat13 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego21.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat14 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego23.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat15 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego26.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat16 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego24.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat17 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego25.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat18 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego27.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
+
+#kat19 {
+    background-image: url("https://i37.servimg.com/u/f37/18/14/61/98/katego28.jpg");
+    height: 100px;
+    width: 800px;
+  
+}
